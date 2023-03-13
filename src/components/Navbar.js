@@ -16,14 +16,14 @@ function Navbar() {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <Link to="/" className="flex items-center">
+        <Link to="/portfolio-penny" className="flex items-center">
           <img
             className="fill-current h-8 w-8 mr-2"
             src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
             alt="Logo"
           />
           <span className="font-semibold text-xl tracking-tight">
-            My Portfolio
+            My Pages
           </span>
         </Link>
       </div>
@@ -51,13 +51,13 @@ function Navbar() {
       >
         <div className="text-sm lg:flex-grow">
           <Link
-            to="/projects"
+            to="/portfolio-penny/projects"
             className={`block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4 ${isActive('/projects')}`}
           >
             Projects
           </Link>
           <Link
-            to="/about"
+            to="/portfolio-penny/about"
             className={`block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4 ${isActive('/about')}`}
           >
             About Me

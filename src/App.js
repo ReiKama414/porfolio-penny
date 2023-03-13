@@ -11,9 +11,9 @@ function App() {
       <Navbar />
       <div className="container mx-auto px-4 pt-5">
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<About />} />
+          <Route exact path="/portfolio-penny" element={<Home />} />
+          <Route path="/portfolio-penny/projects" element={<Projects />} />
+          <Route path="/portfolio-penny/about" element={<About />} />
         </Routes>
       </div>
     </BrowserRouter>
