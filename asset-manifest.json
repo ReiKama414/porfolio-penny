@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-penny/static/css/main.ca3b0855.css",
-    "main.js": "/portfolio-penny/static/js/main.6f827ce1.js",
+    "main.js": "/portfolio-penny/static/js/main.d8d2cc2d.js",
     "static/js/787.952d5184.chunk.js": "/portfolio-penny/static/js/787.952d5184.chunk.js",
     "index.html": "/portfolio-penny/index.html",
     "main.ca3b0855.css.map": "/portfolio-penny/static/css/main.ca3b0855.css.map",
-    "main.6f827ce1.js.map": "/portfolio-penny/static/js/main.6f827ce1.js.map",
+    "main.d8d2cc2d.js.map": "/portfolio-penny/static/js/main.d8d2cc2d.js.map",
     "787.952d5184.chunk.js.map": "/portfolio-penny/static/js/787.952d5184.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca3b0855.css",
-    "static/js/main.6f827ce1.js"
+    "static/js/main.d8d2cc2d.js"
   ]
 }
