@@ -1,6 +1,8 @@
 import React from 'react';
 
 function About() {
+  document.title = `About Me | Penny's Profolio`;
+
   return (
     <div>
       <h1>About Me</h1>
