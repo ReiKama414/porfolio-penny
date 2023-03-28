@@ -1,7 +1,7 @@
 import React from 'react';
 
 function About() {
-  document.title = `About Me | Penny's Profolio`;
+  document.title = `About Me | Penny's Protfolio`;
 
   return (
     <div>

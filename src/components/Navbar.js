@@ -14,7 +14,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="flex items-center justify-between flex-wrap h-24 px-6 fixed inset-x-0 top-0 bg-white lg:container lg:mx-auto z-10 font-arial">
+    <nav className="flex items-center justify-between flex-wrap h-24 px-6 fixed inset-x-0 top-0 bg-white lg:container lg:mx-auto z-10 font-rubik">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <Link to="/portfolio-penny" className="flex items-center">
           <img
@@ -52,13 +52,13 @@ function Navbar() {
         <div className="text-sm lg:flex-grow">
           <Link
             to="/portfolio-penny"
-            className={`block w-full h-10 mt-0 text-base leading-10 tracking-widest lg:text-center lg:w-32 lg:inline-block lg:mt-0 mr-4 ${isActive('/portfolio-penny')}`}
+            className={`block w-full h-10 mt-0 text-base leading-10 lg:text-center lg:w-32 lg:inline-block lg:mt-0 mr-4 ${isActive('/portfolio-penny')}`}
           >
             Projects
           </Link>
           <Link
             to="/portfolio-penny/about"
-            className={`block w-full h-10 mt-4 text-base leading-10 tracking-widest lg:text-center lg:w-32 lg:inline-block lg:mt-0 mr-4 ${isActive('/portfolio-penny/about')}`}
+            className={`block w-full h-10 mt-4 text-base leading-10 lg:text-center lg:w-32 lg:inline-block lg:mt-0 mr-4 ${isActive('/portfolio-penny/about')}`}
           >
             About Me
           </Link>
@@ -66,7 +66,7 @@ function Navbar() {
         <div>
           <a
             href="/resume.pdf"
-            className="inline-block w-36 h-10 text-smplus leading-10 tracking-widest text-center border rounded-lg text-white border-white bg-gray-500 hover:border-transparent hover:bg-black mt-4 lg:mt-0 transition-colors duration-300 ease-in-out"
+            className="inline-block w-36 h-10 text-smplus leading-10 text-center border rounded-lg text-white border-white bg-gray-500 hover:border-transparent hover:bg-black mt-4 lg:mt-0 transition-colors duration-300 ease-in-out"
           >
             Resume
           </a>

@@ -6,7 +6,7 @@ function ProjectDetail() {
   const { id } = useParams();
   const project = projectsData.find((p) => p.id === id);
 
-  document.title = `${project.title} | Penny's Profolio`;
+  document.title = `${project.title} | Penny's Protfolio`;
 
   if (!project) {
     return <div>Project not found</div>;
